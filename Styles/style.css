@@ -341,7 +341,6 @@ section{
 .about-text{
     width: 50%;
     margin-top: 150px;
-    background: url("Imgs/1.png");
 }
 .main{
     width: 100%;
@@ -349,8 +348,6 @@ section{
     display: flex;
     text-align: center;
     justify-content: space-around;
-    background-image: url("Imgs/1.jpg" );
-    background-size: cover;
 }
 .about-text h1{
     color: white;
