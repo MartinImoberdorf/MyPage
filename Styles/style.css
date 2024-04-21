@@ -78,7 +78,7 @@ body{
 }
 @media screen and (max-width:565px){
     .Home div h1{
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
     .imgAvatar{
         margin: 15px;
@@ -88,16 +88,16 @@ body{
 
 @media screen and (max-width:495px){
     .Home div h1{
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
     .imgAvatar{
         width: 100px;
     }
 }
 
-@media screen and (max-width:434px){
+@media screen and (max-width:447px){
     .Home div h1{
-        font-size: 1em;
+        font-size: 1.4em;
     }
     .imgAvatar{
         width: 90px;
@@ -108,20 +108,13 @@ body{
     }
 }
 
-@media screen and (max-width:363px){
+@media screen and (max-width:422px){
     .Home div h1{
-        font-size: 0.8em;
+        font-size: 1.2em;
         margin-bottom: -5px;
     }
-    .imgAvatar{
-        margin: 5px;
-    }
 }
-@media screen and (max-width:322px){
-    .imgAvatar{
-        margin: 3px;
-    }
-}
+
 
 /* Experiencia */
 .Experience
@@ -291,7 +284,7 @@ body{
     }
 }
 
-@media screen and (max-width:530px){
+@media screen and (max-width:549px){
     .OneProject-Secondary{
         width: 200px;
     }
@@ -302,6 +295,52 @@ body{
         font-size: 0.6em;
     }
 }
+
+@media screen and (max-width:490px){
+    .OneProject-Secondary{
+        width: 180px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:449px){
+    .OneProject-Secondary{
+        width: 150px;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .OneProject-Secondary svg{
+        width: 19px
+    }
+}
+
+@media screen and (max-width:390px){
+    .OneProject-Secondary{
+        width: 140px;
+        padding: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:370px){
+    .OneProject-Secondary{
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .OneProject-Secondary{
+        width: 120px;
+    }
+}
+@media screen and (max-width:330px){
+    .OneProject-Secondary{
+        width: 180px;
+    }
+}
+
 
 /* My Story */
 .MyStory{
