@@ -1,0 +1,112 @@
+/* Projects Secondary */
+.Projects-secondary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    max-width: 600px; 
+}
+
+.Projects-secondary
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.OneProject-Secondary{
+    margin: 10px;
+    border: 0.1px solid var(--color-principal);
+    padding: 15px;
+    text-decoration: none;
+    width: 280px;
+    height: 120px;
+    border: 0.1px solid #30e11534;
+    opacity: 0.5;
+    border-radius: 12px;
+}
+.OneProject-Secondary:hover{
+    border: 0.1px solid var(--color-principal);
+    opacity: 1;
+}
+.OneProject-Secondary h3{
+    margin: 0 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: var(--color-principal);
+}
+.OneProject-Secondary h4{
+    color: #e5e7eb;
+    margin: 3px 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+.OneProject-Secondary div{
+    margin: 3px 5px;
+    padding: 3px 20px;
+}
+
+@media screen and (max-width:630px){
+    .OneProject-Secondary{
+        width: 230px;
+    }
+}
+
+@media screen and (max-width:549px){
+    .OneProject-Secondary{
+        width: 200px;
+    }
+    .OneProject-Secondary h3{
+        font-size: 0.8em;
+    }
+    .OneProject-Secondary h4{
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width:490px){
+    .OneProject-Secondary{
+        width: 180px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:449px){
+    .OneProject-Secondary{
+        width: 150px;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .OneProject-Secondary svg{
+        width: 19px
+    }
+}
+
+@media screen and (max-width:390px){
+    .OneProject-Secondary{
+        width: 140px;
+        padding: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:370px){
+    .OneProject-Secondary{
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .OneProject-Secondary{
+        width: 120px;
+    }
+}
+@media screen and (max-width:330px){
+    .OneProject-Secondary{
+        width: 180px;
+    }
+}

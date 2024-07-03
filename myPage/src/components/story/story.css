@@ -1,0 +1,36 @@
+/* My Story */
+.MyStory{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    max-width: 600px; 
+}
+.MyStory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.1px dotted var(--color-principal);
+}
+.MyStory h1{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    width: 100%;
+    padding: 25px;
+    margin: 0 25px;
+}
+.MyStory p{
+    color: #e5e7eb;
+    margin: 25px;
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+.MyStory span{
+    color: var(--color-principal);
+    opacity: 0.8;
+}

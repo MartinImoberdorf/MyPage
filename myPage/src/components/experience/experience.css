@@ -1,0 +1,51 @@
+/* Experiencia */
+.Experience{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    max-width: 600px; 
+}
+.Experience
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Experience h1{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    width: 100%;
+    padding: 25px;
+    margin: 0 25px;
+}
+
+/* One Experience */
+.OneExperience h3{
+    color: #e5e7eb;
+    margin: 0 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--color-principal);
+}
+.OneExperience div{
+    border-left: 0.1px solid #e5e7eb;
+    margin: 0 25px;
+}
+.OneExperience div time{
+    color: #fff;
+    margin: 25px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8em;
+    opacity: 0.8;
+}
+.OneExperience div p{
+    color: #e5e7eb;
+    margin: 25px;
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8em;
+}

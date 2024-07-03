@@ -1,0 +1,95 @@
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  max-width: 600px;
+  border-bottom: 0.1px dotted var(--color-principal);
+}
+
+.imgAvatar {
+  width: 150px;
+  margin: 30px;
+}
+
+.Home div h1 {
+  color: var(--color-principal);
+  font-size: 1.7em;
+  text-align: center;
+  margin: 0;
+  margin-bottom: -8px; /* Adjust as needed */
+  margin-right: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.Home div h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--color-principal);
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.redes {
+  margin-top: 15px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.redes a {
+  color: #000;
+  height: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .Home div h1 {
+    font-size: 1.6em;
+  }
+  .Home div h3 {
+    font-size: 0.7em;
+  }
+  .imgAvatar {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .imgAvatar {
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .Home div h1 {
+    font-size: 1.5em;
+  }
+  .imgAvatar {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 447px) {
+  .Home div h1 {
+    font-size: 1.4em;
+    margin-bottom: -5px; /* Adjust as needed */
+  }
+  .imgAvatar {
+    width: 90px;
+  }
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 422px) {
+  .Home div h1 {
+    font-size: 1.2em;
+    margin-bottom: -5px; /* Adjust as needed */
+  }
+}
