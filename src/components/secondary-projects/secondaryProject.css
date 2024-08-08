@@ -1,5 +1,5 @@
 /* Projects Secondary */
-.Projects-secondary{
+.projects-secondary{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,14 +7,14 @@
     max-width: 600px; 
 }
 
-.Projects-secondary
+.projects-secondary
 {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     
 }
-.OneProject-Secondary{
+.one-project-secondary{
     margin: 10px;
     border: 0.1px solid var(--color-principal);
     padding: 15px;
@@ -25,88 +25,81 @@
     opacity: 0.5;
     border-radius: 12px;
 }
-.OneProject-Secondary:hover{
+.one-project-secondary:hover{
     border: 0.1px solid var(--color-principal);
     opacity: 1;
 }
-.OneProject-Secondary h3{
+.one-project-secondary h3{
     margin: 0 25px;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 1em;
     color: var(--color-principal);
 }
-.OneProject-Secondary h4{
+.one-project-secondary h4{
     color: #e5e7eb;
     margin: 3px 25px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 0.8em;
 }
-.OneProject-Secondary div{
+.one-project-secondary div{
     margin: 3px 5px;
     padding: 3px 20px;
 }
-
+.one-project-secondary div img{
+    width: 30px;
+    height: 30px;
+}
 @media screen and (max-width:630px){
-    .OneProject-Secondary{
+    .one-project-secondary{
         width: 230px;
     }
 }
 
 @media screen and (max-width:549px){
-    .OneProject-Secondary{
+    .one-project-secondary{
         width: 200px;
     }
-    .OneProject-Secondary h3{
+    .one-project-secondary h3{
         font-size: 0.8em;
     }
-    .OneProject-Secondary h4{
-        font-size: 0.6em;
+    .one-project-secondary div img{
+        width: 25px;
+        height: 25px;
     }
+
 }
 
+@media screen and (max-width:500px){
+    .one-project-secondary{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
 @media screen and (max-width:490px){
-    .OneProject-Secondary{
-        width: 180px;
+    .one-project-secondary{
         padding: 5px;
     }
 }
 
 @media screen and (max-width:449px){
-    .OneProject-Secondary{
-        width: 150px;
+    .one-project-secondary{
+        width: 300px;
         padding: 0;
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .OneProject-Secondary svg{
-        width: 19px
+    .one-project-secondary h3{
+        font-size: 1em;
+    }
+    .one-project-secondary div img{
+        width: 30px;
+        height: 30px;
     }
 }
 
-@media screen and (max-width:390px){
-    .OneProject-Secondary{
-        width: 140px;
-        padding: 0;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-}
 
-@media screen and (max-width:370px){
-    .OneProject-Secondary{
-        width: 130px;
-    }
-}
 
-@media screen and (max-width:350px){
-    .OneProject-Secondary{
-        width: 120px;
-    }
-}
-@media screen and (max-width:330px){
-    .OneProject-Secondary{
-        width: 180px;
-    }
-}

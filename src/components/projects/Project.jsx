@@ -16,7 +16,7 @@ function Project() {
             <img src={NRImage} alt="Never Remember"/>
             <div>
                 <h1>Never Remember</h1>
-                <p>Is a Python app that utilizes JSON to help you remember important dates through notifications when you turn on your computer</p>
+                <p>This app uses JSON to help you remember important dates by sending notifications when you start your computer.</p>
                 <div class="OneProjectDiv">
                     <img src={pythonIcon} alt="pythonIcon" style={{ width: '30px' , height: '30px' }}/>
                     <a href="https://github.com/MartinImoberdorf/Never-Remember">
@@ -29,7 +29,7 @@ function Project() {
             <img src={FootballViewNotIAImage} alt="FootballViewNotIA"/>
             <div>
                 <h1>Football View Without AI</h1>
-                <p> is a Unity-based project that offers a unique football match visualization experience. Unlike current trends, this project stands out by eschewing the use of Artificial Intelligence (AI)</p>
+                <p>This project offers a unique football match visualization experience. Unlike current trends, it stands out by avoiding the use of Artificial Intelligence (AI).</p>
                 <div class="OneProjectDiv">
                     <img src={unityIcon} alt="unityIcon" style={{ width: '30px' , height: '30px' }}/>
                     <img src={cSharpIcon} alt="cSharpIcon" style={{ width: '30px' , height: '30px' }}/>

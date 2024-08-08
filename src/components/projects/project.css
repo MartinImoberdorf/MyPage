@@ -25,7 +25,7 @@
 .OneProject{
     display: flex;
     flex-direction: row;
-    margin: 15px;
+    margin: 10px;
 }
 .OneProject h1{
     color: var(--color-principal);
@@ -37,12 +37,13 @@
 }
 .OneProject img{
     width: 250px;
-    height: 150px;
+
     border-radius: 0.5rem;
 }
 .OneProject div p{
     color: #e5e7eb;
     margin: 25px;
+    padding: 5px;
     margin-top: 5px;
     font-family: "Poppins", sans-serif;
     font-size: 0.8em;
@@ -50,6 +51,9 @@
 }
 .OneProjectDiv{
     margin: 0 25px;
+}
+.OneProjectDiv img{
+    margin: 1px;
 }
 
 @media screen and (max-width:560px){
@@ -76,5 +80,19 @@
     .OneProject div p{
         margin: 5px 0px; 
         font-size: 0.7em;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .OneProject{
+        width: 100%;
+        margin: 25px;
+    }
+    .OneProject img{
+        width: 100%;
+    }
+    .OneProjectDiv {
+        margin: 0;
     }
 }
