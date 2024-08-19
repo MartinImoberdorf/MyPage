@@ -50,6 +50,7 @@
   margin: 1px;
 }
 
+
 @media screen and (max-width: 800px) {
   .Home div h1 {
     font-size: 1.6em;
@@ -58,7 +59,7 @@
     font-size: 0.7em;
   }
   .imgAvatar {
-    width: 120px;
+    width: 130px;
   }
 }
 
@@ -72,18 +73,12 @@
   .Home div h1 {
     font-size: 1.5em;
   }
-  .imgAvatar {
-    width: 100px;
-  }
 }
 
 @media screen and (max-width: 447px) {
   .Home div h1 {
     font-size: 1.4em;
     margin-bottom: -5px; /* Adjust as needed */
-  }
-  .imgAvatar {
-    width: 90px;
   }
   svg {
     width: 30px;

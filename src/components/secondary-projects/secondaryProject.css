@@ -16,17 +16,17 @@
 }
 .one-project-secondary{
     margin: 10px;
-    border: 0.1px solid var(--color-principal);
+    border: 0.15px solid var(--color-principal);
     padding: 15px;
     text-decoration: none;
     width: 280px;
     height: 120px;
-    border: 0.1px solid #30e11534;
+    border: 0.15px solid #30e11534;
     opacity: 0.5;
     border-radius: 12px;
 }
 .one-project-secondary:hover{
-    border: 0.1px solid var(--color-principal);
+    border: 0.15px solid var(--color-principal);
     opacity: 1;
 }
 .one-project-secondary h3{

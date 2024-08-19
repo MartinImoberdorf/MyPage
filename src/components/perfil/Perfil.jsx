@@ -14,10 +14,10 @@ function Perfil() {
         <h3>Systems Engineering Student</h3>
         <div className="redes">
           <a href="https://www.linkedin.com/in/martin-jos%C3%A9-imoberdorf-844886202/">
-            <img src={linkedinIcon} alt="linkedinIcon" style={{ width: '30px' , height: '30px' }}/>
+            <img src={linkedinIcon} alt="linkedinIcon" style={{ width: '35px' , height: '35px' }}/>
           </a>
           <a href="https://github.com/MartinImoberdorf">
-            <img src={githubIcon} alt="githubIcon" style={{ width: '30px' , height: '30px' }}/>
+            <img src={githubIcon} alt="githubIcon" style={{ width: '35px' , height: '35px' }}/>
           </a>
         </div>
       </div>
