@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     margin: 10px auto;
-    max-width: 600px;
+    max-width: 800px;
     padding: 0 15px;
     box-sizing: border-box;
     border-top: 0.1px dotted var(--color-principal);

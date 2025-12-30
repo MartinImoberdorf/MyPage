@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   margin: 10px auto;
-  max-width: 600px;
+  max-width: 800px;
   border-bottom: 0.1px dotted var(--color-principal);
 }
 
