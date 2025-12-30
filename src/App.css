@@ -8,6 +8,25 @@
 body{
   margin: 25px;
   background-color: #000;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    margin: 8px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    margin: 5px;
+  }
 }
 #particles-js{
   background-color: #000;

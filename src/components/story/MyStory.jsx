@@ -5,8 +5,8 @@ import './story.css';
 
 function MyStory() {
   return (
-    <article class="MyStory">
-        <h1>My Story 📖</h1>
+    <article className="MyStory">
+        <h1>My Story</h1>
         <p>
             In a few words, I will try to explain what was the beginning of everything...
             <br/><br/>

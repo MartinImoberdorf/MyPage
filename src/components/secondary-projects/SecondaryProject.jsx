@@ -1,19 +1,23 @@
 import React from 'react';
 import './secondaryProject.css';
 
-
 import pythonIcon from '../../assets/icons/python.png'
 import jsIcon from '../../assets/icons/js.png'
 import htmlIcon from '../../assets/icons/html.png'
 import cssIcon from '../../assets/icons/css.png'
-import reactIcon from '../../assets/icons/react.png'
-import cSharpIcon from '../../assets/icons/cSharp.png'
-import unityIcon from '../../assets/icons/unity.png'
+import javaIcon from '../../assets/icons/java.png'
+import springBootIcon from '../../assets/icons/springBoot.png'
+import dockerIcon from '../../assets/icons/docker.png'
+import mongoDBIcon from '../../assets/icons/mongoDB.png'
+import promtheusIcon from '../../assets/icons/prometheus.png'
+import keycloakIcon from '../../assets/icons/keycloak.png'
+import flaskIcon from '../../assets/icons/flask.png'
+import tailwindIcon from '../../assets/icons/tailwind.png'
 
 function SecondaryProject() {
   return (
-    <article class="projects-secondary">
-        <a class="one-project-secondary" href="https://github.com/MartinImoberdorf/API-Champions-League-Winners">
+    <article className="projects-secondary">
+        <a className="one-project-secondary" href="https://github.com/MartinImoberdorf/API-Champions-League-Winners">
             <h3>API Champions League</h3>
             <h4>API with FastAPI</h4>
             <div>
@@ -21,32 +25,39 @@ function SecondaryProject() {
             </div>
         </a>
 
-        <a class="one-project-secondary" href="https://github.com/MartinImoberdorf/CalculatorWithReact">
-            <h3>Calculator</h3>
-            <h4>Calculator with React</h4>
+        <a className="one-project-secondary" href="https://github.com/MartinImoberdorf/OnlineShoppingApp-Microservices">
+            <h3>Online Shopping App - Microservices</h3>
+            <h4></h4>
             <div>
-                <img src={jsIcon} alt="jsIcon"/>
-                <img src={htmlIcon} alt="htmlIcon"/>
-                <img src={cssIcon} alt="cssIcon"/>
-                <img src={reactIcon} alt="reactIcon"/>
+                <img src={javaIcon} alt="javaIcon"/>
+                <img src={springBootIcon} alt="springBootIcon"/>
+                <img src={dockerIcon} alt="dockerIcon"/>
+                <img src={mongoDBIcon} alt="mongoDBIcon"/>
+                <img src={promtheusIcon} alt="prometheusIcon"/>
+                <img src={keycloakIcon} alt="keycloakIcon"/>
             </div>
             
         </a>
 
-        <a class="one-project-secondary" href="https://github.com/MartinImoberdorf/MyTimetableZoom2022">
-            <h3>My Timetable</h3>
-            <h4>A automatization for virtual Zoom classes</h4>
+        <a className="one-project-secondary" href="https://github.com/MartinImoberdorf/ForumCommunity-with-Flask">
+            <h3>ForumCommunity-with-Flask</h3>
+            <h4></h4>
             <div>
                 <img src={pythonIcon} alt="pythonIcon"/>
+                <img src={flaskIcon} alt="flaskIcon"/>
+                <img src={htmlIcon} alt="htmlIcon"/>
+                <img src={cssIcon} alt="cssIcon"/>
             </div>
         </a>
 
-        <a class="one-project-secondary" href="https://github.com/MartinImoberdorf/REFLEX">
-            <h3>Reflex</h3>
-            <h4>Video game to practice reflexes</h4>
+        <a className="one-project-secondary" href="https://github.com/MartinImoberdorf/An-Easy-Way-to-Master-Phrasal-Verbs">
+            <h3>An Easy Way to Master Phrasal Verbs</h3>
+            <h4></h4>
             <div>
-                <img src={unityIcon} alt="unityIcon"/>
-                <img src={cSharpIcon} alt="cSharpIcon"/>
+                <img src={htmlIcon} alt="htmlIcon"/>
+                <img src={cssIcon} alt="cssIcon"/>
+                <img src={jsIcon} alt="jsIcon"/>
+                <img src={tailwindIcon} alt="tailwindIcon"/>
             </div>
         </a>
         

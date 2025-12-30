@@ -3,27 +3,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px auto;
-    max-width: 600px; 
-}
-
-.projects-secondary
-{
-    display: flex;
-    align-items: center;
     flex-wrap: wrap;
-    
+    margin: 10px auto;
+    max-width: 600px;
+    gap: 15px;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 .one-project-secondary{
-    margin: 10px;
-    border: 0.15px solid var(--color-principal);
+    margin: 0;
+    border: 0.15px solid #30e11534;
     padding: 15px;
     text-decoration: none;
-    width: 280px;
-    height: 120px;
-    border: 0.15px solid #30e11534;
+    width: calc(50% - 7.5px);
+    min-height: 120px;
     opacity: 0.5;
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 .one-project-secondary:hover{
     border: 0.15px solid var(--color-principal);
@@ -51,53 +49,79 @@
     width: 30px;
     height: 30px;
 }
-@media screen and (max-width:630px){
+@media screen and (max-width: 630px){
+    .projects-secondary {
+        gap: 10px;
+        padding: 0 10px;
+    }
     .one-project-secondary{
-        width: 230px;
+        width: calc(50% - 5px);
     }
 }
 
-@media screen and (max-width:549px){
+@media screen and (max-width: 549px){
     .one-project-secondary{
-        width: 200px;
+        width: calc(50% - 5px);
     }
     .one-project-secondary h3{
         font-size: 0.8em;
+        margin: 0 15px;
+    }
+    .one-project-secondary h4{
+        margin: 3px 15px;
+    }
+    .one-project-secondary div{
+        margin: 3px 5px;
+        padding: 3px 15px;
     }
     .one-project-secondary div img{
         width: 25px;
         height: 25px;
     }
-
 }
 
-@media screen and (max-width:500px){
-    .one-project-secondary{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+@media screen and (max-width: 500px){
+    .projects-secondary {
+        gap: 10px;
+        padding: 0 8px;
     }
-}
-@media screen and (max-width:490px){
     .one-project-secondary{
-        padding: 5px;
+        width: calc(50% - 5px);
+        padding: 12px;
     }
 }
 
-@media screen and (max-width:449px){
+@media screen and (max-width: 449px){
     .one-project-secondary{
-        width: 300px;
-        padding: 0;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 10px;
+        min-height: auto;
     }
     .one-project-secondary h3{
-        font-size: 1em;
+        font-size: 0.85em;
+        margin: 0 10px;
+    }
+    .one-project-secondary h4{
+        margin: 3px 10px;
+        font-size: 0.75em;
+    }
+    .one-project-secondary div{
+        padding: 3px 10px;
     }
     .one-project-secondary div img{
-        width: 30px;
-        height: 30px;
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .projects-secondary {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0 10px;
+    }
+    .one-project-secondary{
+        width: 100%;
+        margin: 0;
     }
 }
 

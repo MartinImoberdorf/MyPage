@@ -1,16 +1,13 @@
 /* Experiencia */
 .Experience{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 10px auto;
-    max-width: 600px; 
-}
-.Experience
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    max-width: 600px;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 .Experience h1{
     color: #fff;
@@ -47,5 +44,59 @@
     margin: 25px;
     margin-top: 5px;
     font-family: "Poppins", sans-serif;
-    font-size: 0.8em;
+    font-size: 0.9em;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 600px) {
+    .Experience {
+        padding: 0 10px;
+    }
+    .Experience h1 {
+        padding: 15px 10px;
+        font-size: 1.2em;
+        margin: 0;
+    }
+    .OneExperience h3 {
+        margin: 0 10px;
+        font-size: 0.9em;
+    }
+    .OneExperience div {
+        margin: 0 10px;
+    }
+    .OneExperience div time {
+        margin: 10px;
+        font-size: 0.75em;
+    }
+    .OneExperience div p {
+        margin: 0 10px 15px 10px;
+        margin-top: 5px;
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Experience {
+        padding: 0 8px;
+    }
+    .Experience h1 {
+        padding: 12px 8px;
+        font-size: 1.1em;
+    }
+    .OneExperience h3 {
+        margin: 0 8px;
+        font-size: 0.85em;
+    }
+    .OneExperience div {
+        margin: 0 8px;
+    }
+    .OneExperience div time {
+        margin: 8px;
+        font-size: 0.72em;
+    }
+    .OneExperience div p {
+        margin: 0 8px 12px 8px;
+        margin-top: 5px;
+        font-size: 0.8em;
+    }
 }
